@@ -19,3 +19,22 @@ body {
   padding: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+.departures table {
+  background-color: rgb(63, 63, 63);
+  text-align: left;
+}
+#time {
+  width: 160px;
+}
+#destination {
+  width: 700px;
+}
+#flight {
+  width: 205px;
+}
+#gate {
+  width: 135px;
+}
+#remark {
+  width: 260px;
+}

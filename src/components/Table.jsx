@@ -1,6 +1,12 @@
+import TableHead from "./TableHead";
+import TableBody from "./TableBody";
+
 function Table() {
   return (
-    <h1></h1>
+    <table>
+      <TableHead />
+      <TableBody />
+    </table>
   );
 }
 
