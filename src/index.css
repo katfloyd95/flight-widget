@@ -1,1 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
 
+* {
+  color: rgb(240, 240, 240);
+  font-family: "Ubuntu Condensed", sans-serif, Arial;
+  font-size: 35px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("pink-clouds-wallpaper.jpg");
+  background-size: cover;
+}
+.departures {
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
