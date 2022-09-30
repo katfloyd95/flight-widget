@@ -1,6 +1,12 @@
-function TableCell() {
+import TableLetter from './TableLetter';
+
+function TableCell({cell}) {
+  
   return (
-    <h1></h1>
+    <td>
+      {Array.from(cell).map((letter, index) => ( <TableLetter key={index} letter={letter} index={index} />
+      ))}
+    </td>
   );
 }
 

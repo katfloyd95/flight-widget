@@ -1,6 +1,18 @@
-function TableRow() {
+import TableCell from './TableCell';
+
+function TableRow({flight}) {
+
+  const cellData = Object.values(flight);
+
+  console.log(cellData);
+
   return (
-    <h1></h1>
+    <tr>
+      <td>✈️</td>
+      {cellData?.map((cell, index) => (
+        <TableCell key={index} cell={cell} index={index} />
+      ))}
+    </tr>
   );
 }
 
